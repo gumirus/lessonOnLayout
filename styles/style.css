@@ -1,7 +1,23 @@
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "Poppins", sans-serif;
+  --third-family: "Raleway", sans-serif;
+}
+
 h1 {
-  width: 600px;
-  color: brown;
-  font-size: 30px;
-  margin: 0 auto;
-  margin-top: 5%;
+  font-family: var(--third-family);
+  font-weight: 700;
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #262525;
+}
+
+p {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 157%;
+  text-align: center;
+  color: #262525;
 }
